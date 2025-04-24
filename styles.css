@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5rem;
+    padding: 40px 0;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
+
+.menu ul, .sub_menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu ul {
+    justify-content: space-around;
+    min-width: 320px;
+
+}
+
+.menu ul li:nth-child(2){
+    font-weight: bold;
+}
+
+.sub_menu ul {
+    justify-content: center;
+    gap: min(5rem);
+}
+
+.sub_menu ul li:nth-child(1) a{
+    color: red;
+}
+
+.sub_menu a{
+    text-decoration: none;
+    color: black;
+}
+.sub_menu a:hover{
+    color: red;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.search input {
+    width: 50%;
+    min-width: 320px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    background-color: #F2F3F4;
+    
+}
+main {
+    width: 100%;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+main ul li {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.details .title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.details img {
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+}
+
+.play button {
+    padding: 0.2rem 1rem;
+    background-color: #F2F3F4;
+    color: black;
+    border: none;
+}
+
+.play button:hover {
+    background-color: #e5e7e9;
+}
+
+.audio_player {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.audio_player audio {
+    background-color: white;
+    width: 70%;
+}
+
+audio::-webkit-media-controls-enclosure{
+    background-color: white;
+}
