@@ -12,6 +12,7 @@ body{
     gap: 5rem;
     padding: 40px 0;
     align-items: center;
+    background-color: rgb(235, 227, 212);;
 }
 
 nav{
@@ -35,6 +36,8 @@ nav{
 
 .menu ul li:nth-child(2){
     font-weight: bold;
+    font-size: 1.75rem;
+    color: orange;
 }
 
 .sub_menu ul {
@@ -89,6 +92,11 @@ main ul li {
     align-items: center;
 }
 
+main li:hover {
+    background-color: rgb(235, 227, 212);
+}
+
+
 .details {
     display: flex;
     flex-direction: row;
@@ -108,15 +116,16 @@ main ul li {
     height: 120px;
 }
 
+
 .play button {
     padding: 0.2rem 1rem;
-    background-color: #F2F3F4;
+    background-color: orange;
     color: black;
     border: none;
 }
 
 .play button:hover {
-    background-color: #e5e7e9;
+    background-color: rgb(126, 105, 65);
 }
 
 .audio_player {
