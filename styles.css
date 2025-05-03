@@ -12,7 +12,7 @@ body{
     gap: 5rem;
     padding: 40px 0;
     align-items: center;
-    background-color: rgb(235, 227, 212);;
+    background-color: rgb(235, 227, 212);
 }
 
 nav{
@@ -90,10 +90,12 @@ main ul li {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 main li:hover {
-    background-color: rgb(235, 227, 212);
+    background-color: rgb(223, 212, 192)
 }
 
 
@@ -116,16 +118,21 @@ main li:hover {
     height: 120px;
 }
 
+.details h5{
+    color: rgb(134, 105, 51);
+}
+
 
 .play button {
     padding: 0.2rem 1rem;
     background-color: orange;
     color: black;
     border: none;
+    border-radius: 2px;
 }
 
 .play button:hover {
-    background-color: rgb(126, 105, 65);
+    background-color: rgb(233, 179, 87);
 }
 
 .audio_player {
@@ -134,11 +141,11 @@ main li:hover {
     justify-content: center;
 }
 
-.audio_player audio {
-    background-color: white;
+/* .audio_player audio {
+    background-color: rgb(235, 227, 212);
     width: 70%;
 }
 
 audio::-webkit-media-controls-enclosure{
-    background-color: white;
-}
+    background-color: rgb(235, 227, 212);
+} */
