@@ -141,6 +141,47 @@ main li:hover {
     justify-content: center;
 }
 
+.audio_player .player {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    border-radius: 5px;
+    background-color: rgb(216, 196, 158);
+    padding: 20px;
+    gap: 1rem;
+}
+
+.audio_player .music-details {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.music-details img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.audio_player .controls {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.controls img {
+    width: 20px;
+    height: auto;
+}
+
+
+
+
 /* .audio_player audio {
     background-color: rgb(235, 227, 212);
     width: 70%;
