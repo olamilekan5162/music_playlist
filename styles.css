@@ -34,11 +34,11 @@ nav{
 
 }
 
-.menu ul li:nth-child(2){
+/* .menu ul li:nth-child(2){
     font-weight: bold;
     font-size: 1.75rem;
     color: orange;
-}
+} */
 
 .sub_menu ul {
     justify-content: center;
@@ -112,18 +112,18 @@ main li:hover {
     gap: 0.5rem;
 }
 
-.details img {
+/* .details img {
     border-radius: 5px;
     width: 120px;
     height: 120px;
-}
+} */
 
 .details h5{
     color: rgb(134, 105, 51);
 }
 
 
-.play button {
+/* .play button {
     padding: 0.2rem 1rem;
     background-color: orange;
     color: black;
@@ -133,7 +133,7 @@ main li:hover {
 
 .play button:hover {
     background-color: rgb(233, 179, 87);
-}
+} */
 
 .audio_player {
     margin-top: 2rem;
