@@ -160,11 +160,11 @@ main li:hover {
 
 }
 
-.music-details img {
+/* .music-details img {
     width: 100px;
     height: auto;
     border-radius: 5px;
-}
+} */
 
 .audio_player .controls {
     width: 50%;
